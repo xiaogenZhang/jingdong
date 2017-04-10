@@ -1,0 +1,45 @@
+*{margin: 0px;padding:0px;}
+.b{display: none;}
+.a{display: block;}
+
+.header{width: 100%;height: 80px;border-bottom: 3px solid #ccc}
+.header a.logo{width: 200px;height: 80px;float: left;background: green;margin-left: 100px;}
+.header a.logo img{width: 200px;height: 80px;}
+.header span.font{line-height: 80px;font-weight:700;font-size: 30px;color: #000;display: block;float: left;margin-left: 20px;}
+.header span.please-login{line-height: 100px;font-size: 14px;color: gray;display: block;float: right;margin-right: 100px;}
+.header span.please-login a{color: #000;text-decoration:none;}
+
+.content{width: 1300px;height: 750px;margin: 30px auto;border-bottom: 2px solid #ccc;}
+.content .left-content{width: 650px;height: 600px;float: left;}
+.content .left-content form{width: 650px;}
+.content .left-content form .everLine{width: 350px;height: 40px;margin: 15px 200px;border: 1px solid #ccc;}
+/*.content .left-content form .result{width: 40px;height: 40px;line-height: 40px;text-align: center;background: green;float: right;}*/
+.content .left-content form .everLine .name{width: 100px;height: 40px;float: left;line-height: 40px;text-align: center;font-size: 14px;color: #000;}
+.content .left-content form .everLine input{display: block;width: 250px;height: 40px;float: left;border: none;text-indent: 20px;}
+.content .left-content form .everLine .result{width: 40px;height: 40px;float: right;}
+.content .left-content form p{width: 350px;height: 20px;font-size: 12px;color: #ccc;margin-left: 200px;}
+.content .left-content form p span{line-height: 20px;}
+.content .left-content form p.protocol{color: #000}
+.content .left-content form p.protocol input{margin:10px;}
+.content .left-content form p.protocol a{text-decoration: none;}
+.content .left-content form .regedit{width: 400px;height: 40px;background: red;font-size: 12px;font-weight: 600;line-height: 40px;text-align: center;color: #fff;margin:20px 175px;border: none}
+
+.content .cut-line{width: 0px;height: 680px;border-right: 1px solid #999;float: left;margin-top: 20px}
+
+.content .right-content{width: 649px;float: right;height: 730px;}
+.content .right-content a{width: 180px;height: 100px;border-bottom: 1px solid #999;display: block;margin: 30px 100px;text-decoration: none;font-size: 12px;color: #999}
+.content .right-content a:hover{font-weight: 700;color: #000}
+.content .right-content a img{width: 40px;height: 60px;display: block;background: red;float: left;margin-top: 20px}
+.content .right-content a p{width: 100px;height: 60px;line-height: 60px;margin: 20px;float: left;}
+.content .right-content a.pic2{border: none;}
+.content .right-content a.pic2 p{line-height: 30px;}
+.content .right-content a.pic3{width: 200px;height: 350px;}
+.content .right-content a.pic3 img{width: 200px;height: 350px;}
+
+.footter{width: 1200px;height: 100px;margin: 0px auto;}
+.footter ul{width: 850px;height: 30px;margin:10px auto;}
+.footter ul li{list-style: none;float: left;margin-left: 10px;}
+.footter ul li a{text-decoration: none;line-height: 30px;font-size:12px;color: #999;}
+.footter ul li a:hover{color: red;}
+.footter ul li.line{width: 0px;height: 15px;border-right:1px solid #999;margin-top: 8px;}
+.footter p.font{width: 260px;margin: 10px auto;font-size: 12px;color: #999;line-height: 30px;}

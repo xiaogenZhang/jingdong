@@ -1,0 +1,56 @@
+*{margin: 0px;padding:0px;}
+
+.title{width: 100%;height: 80px;}
+.title .logo{width: 200px;height: 80px;float: left;display: block;margin-left: 140px;}
+.title .logo img{width: 200px;height: 80px;background: green}
+.title .logo-font{width: 200px;height: 80px;margin-left:50px;line-height: 80px;font-size: 30px;font-weight: 500;float: left;}
+.title .satisfaction{width: 200px;height: 30px;float: right;margin:50px 140px 0 0;text-decoration: none}
+.title .satisfaction img{width: 30px;height: 20px;float: left;background: red;margin:5px 0 0 20px;display: block;}
+.title .satisfaction p{font-size: 12px;color: #ccc;line-height: 30px;text-indent: 20px}
+.title .satisfaction p:hover{color: red;}
+
+.content{width: 100%;height: 480px;position: relative;}
+.content img{width: 100%;height: 480px;}
+.content .login{width: 350px;height: 360px;background: #fff;position: absolute;top:50px;right: 180px;}
+.content .login .title2{width: 350px;height: 80px;}
+.content .login .title2 .login1{width: 175px;height: 80px;float: left;font-size: 20px;line-height: 80px;text-align: center;}
+.content .login .title2 .login1:hover{color: red;font-weight: 700;}
+/*账户登录*/
+.content .login .login2{width: 350px;}
+.content .login .login2 .user{width: 300px;height: 40px;margin:0 auto;}
+.content .login .login2 button{width: 40px;height: 40px;display: block;border:1px solid #ccc;float: left;}
+.content .login .login2 button img{width: 40px;height: 39px;}
+/*.content .login .user button{background: url('images/user11.png')}*/
+.content .login .login2 .user input,.content .login .login2 .password input{width: 250px;height: 39px;display: block;border:1px solid #ccc;margin-right: -1px;font-size: 14px}
+.content .login .login2 .password{width: 300px;height: 40px;margin:10px auto;}
+.content .login .login2 .three-line{width: 300px;height: 30px;margin: 10px auto;}
+.content .login .login2 .three-line #input3{display: block;float: left;margin-top: 4px}
+.content .login .login2 .three-line p{color: #ccc;float: left;}
+.content .login .login2 a.forget-password{display: block;text-decoration: none;float: right;color: #ccc}
+.content .login .login2 a.four-line{width: 300px;height: 40px;background: red;margin: 10px auto;display: block;text-align: center;line-height: 40px;font-size: 20px;color: #fff;font-weight: 700;text-decoration: none}
+/*扫码登录*/
+.content .login .login3{width: 350px}
+.content .login .login2 .pic{width: 130px;height: 130px;margin:5px auto;}
+.content .login .login2 .pic img{width: 130px;height: 130px}
+.content .login .login2 p.font{font-size: 12px;color: #999;width: 140px;height: 30px;line-height: 30px;margin: 15px auto;}
+.content .login .login2 p.font a{color: red;text-decoration: none}
+.content .login .login2 div.font3{width: 350px;height: 30px;}
+.content .login .login2 div.font3 span{display: block;float: left;margin-left: 30px;width: 50px;height: 30px;line-height: 30px;text-align: center;color: #999}
+.content .login .login2 div.font3 span:nth-child(1){margin-left: 60px}
+
+/*中间部分的底部*/
+.content .content-footer{width: 350px;background: green;margin-top: 20px}
+.content .content-footer ul li{list-style: none;float: left;margin-left: 20px}
+.content .content-footer ul li.line{width: 0px;height: 10px;border-right:1px solid #999;margin-top: 10px;}
+.content .content-footer ul li img{width: 30px;height: 30px;display: block;float: left;border-radius: 10px;}
+.content .content-footer ul li p {float: left;margin-left: 10px;line-height:30px;font-size: 12px;color: #ccc}
+.content .content-footer ul li:hover p{color: red;} 
+ 
+
+.footer{width: 100%;height: 100px;}
+.footer ul{width: 1000px;height: 30px;margin:10px auto;}
+.footer ul li{list-style: none;float: left;margin-left: 20px;}
+.footer ul li a{text-decoration: none;line-height: 30px;font-size:12px;color: #999;}
+.footer ul li a:hover{color: red;}
+.footer ul li.line{width: 0px;height: 15px;border-right:1px solid #999;margin-top: 8px;}
+.footer .font{width: 260px;margin: 10px auto;font-size: 12px;color: #999;line-height: 30px;}

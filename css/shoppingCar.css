@@ -1,0 +1,76 @@
+*{margin:0;padding: 0;}
+ul,ol{list-style: none;}
+a{text-decoration: none;}
+
+.nav1{width:100%;height: 30px;background: #E3E4E5;}
+.nav1 ul{width: 1200px;height: 30px;margin: 0 auto;}
+.nav1 li{float: right;text-align: center;line-height: 30px;height: 30px;}
+.nav1 li a{font-size: 8px;height: 10px;line-height: 30px;padding: 0 8px;border-right: 1px solid gray;color: gray;}
+.nav1 li a:hover{color: red;}
+.nav1 li:nth-child(9){margin-right:500px;position: relative;}
+.nav1 li:nth-child(9):hover{background: #fff;}
+.nav1 li .B-list{width:250px;height: 200px;border:1px solid #ccc;position: absolute;left: 0;top: 30;display: none;z-index: 3;background: #fff;}
+.nav1 li .B-list .city{width: 40px;height: 30px;float: left;text-align: center;line-height: 30px;}
+.nav1 li .B-list .city a{font-size: 10px;color: gray;padding: 5px 5px;}
+.nav1 li .B-list .city a:hover{color: red;background: gray}
+.nav1 li:nth-child(9):hover .B-list{display: block;}
+.nav1 li .aross{width: 76px;height: 0;position: absolute;left: 0;top:30px;border-bottom: 3px solid #fff;display: none;}
+.nav1 li:nth-child(9):hover .aross{display: block;z-index: 5;}
+
+.nav1 img{width: 10px;height: 10px;}
+.nav1 li:nth-child(7) a{color: red;}
+.nav1 li:nth-child(1) a,.nav1 ul li:nth-child(8) a,.nav1 ul li:nth-child(9) a{border:none;}
+
+.header2{width: 1040px;height: 80px;margin:0px auto;}
+.header2 a.logo{width: 180px;height: 70px;display: block;float: left;margin-top: 5px;}
+.header2 a.logo img{width:180px;height: 70px;}
+.header2 p.logoName{font-size: 20px;font-weight: 700;line-height: 80px;float: left;}
+.header2 .search{width: 350px;height: 30px;float: right;margin-top: 24px;border: 2px solid red}
+.header2 .search input{width: 300px;height: 30px;border: none;float: left;float: left;display: block;}
+.header2 .search button{width: 50px;height: 30px;border:none;float: right;display: block;background: red;color: #fff;font-size: 14px;font-weight: 700;line-height: 30px;}
+
+.content{width: 1040px;height: 600px;margin: 10px auto;}
+.content .title{width: 1040px;height: 40px;}
+.content .title .title1{width: 120px;height: 40px;float: left;line-height: 40px;font-size:20px}
+.content .title .title1 a{color: #000;font-weight: 700;}
+.content .title .title2{width: 120px;height: 40px;float: left;line-height: 40px;font-size: 20px;}
+.content .title .title2 a{color: #000;font-weight: 700;}
+.content .stock {width: 250px;height: 40px;float: right;}
+.content .stock .dt{width: 50px;height: 40px;line-height: 40px;text-align: center;font-size: 12px;color: #999;float: left;}
+.content .stock .dd{width: 180px;height: 30px;float: left;border: 1px solid #999;margin-top: 5px;line-height: 30px;text-align: center;font-size: 12px;color: #000}
+
+.content .allSelect{width: 1040px;height: 50px;background: #ccc;}
+.content .allSelect li{list-style: none;float: left;line-height: 50px;font-size: 12px;color: #000;margin-left: 80px;}
+.content .allSelect li:nth-child(1){margin-left: 10px;}
+.content .allSelect li:nth-child(3){margin-left: 450px;}
+
+.content .jd-ziying{width: 1040px;height: 40px;border-bottom: 2px solid #ccc;margin-top: 10px;}
+.content .jd-ziying .ziying{width: 200px;height: 40px;float: left;}
+.content .jd-ziying .ziying input{display: block;float: left;margin: 10px;}
+.content .jd-ziying .ziying p{width: 70px;height: 20px;float: left;background: red;margin-top: 5px;text-align: center;}
+.content .jd-ziying p a{color: #fff;line-height: 20px;font-size: 12px;}
+.content .jd-ziying .freePost{width: 50px;height: 40px;line-height: 40px;font-size: 12px;color: #ccc;float: right;margin-right: 20px;}
+
+.content .action{width: 1040px;height: 30px;position: relative;}
+.content .action a{font-size: 12px;line-height: 30px;color: #000;}
+.content .action a:hover{color: red}
+.content .action a span{font-size: 14px;font-weight: 500;color: #fff;background: orange;padding: 3px;}
+.content .action a:nth-child(2) span{background: red}
+.content .action .price{position: absolute;right: 150px;top: 0px;font-size: 14px;color: #999;line-height: 30px;}
+
+.content .action-content{width: 1040px;height: 120px;background: pink;border: 1px solid pink;}
+.content .action-content input{display: block;margin: 20px;float: left;}
+.content .action-content a.pic{width: 60px;height: 80px;margin: 20px;float: left;}
+.content .action-content a.pic img{width: 60px;height: 80px;float: left;}
+.content .action-content p.decration1{width: 220px;height: 60px;float: left;}
+.content .action-content p.decration2{width: 160px;height: 60px;float: left;margin-left: 20px;font-size: 12px;color: #000;line-height: 30px;}
+.content .action-content .moreSeal{width: 100px;height: 60px;float: left;margin:10px 0 0 10px;}
+.content .action-content .count1{width: 120px;height: 40px;float: left;}
+.content .action-content .count1 .plus{display: block;border:none;width: 30px;height: 30px;float: left;text-align: center;line-height: 30px;font-size: 14px;color: #000;border: 1px solid #ccc;background: #fff;}
+.content .action-content .count1 .sum{width: 40px;height: 30px;float: left;text-align: center;line-height: 30px;font-size: 14px;color: #000;border: 1px solid #ccc;margin-left: -1px;background: #fff;}
+.content .action-content .count1 .add{display: block;border:none;width: 30px;height: 30px;float: left;text-align: center;line-height: 30px;font-size: 14px;color: #000;border: 1px solid #ccc;margin-left: -1px;background: #fff;}
+
+.content .action-content .moreSeal .price11{width: 100px;height: 30px;text-align: center;}
+.content .action-content .moreSeal .more{display: block;width: 80px;height: 20px;text-align: center;line-height: 20px;background: #fff;border: 1px solid #ccc;font-size: 12px;color: red;margin-left: 10px;}
+.content .action-content p.decration1 a{line-height: 20px;font-size: 12px;color: #999;padding: 5px;display: block;}
+.content .action-content p.decration1 a:hover{color: red};
